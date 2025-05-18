@@ -58,3 +58,57 @@ footer { text-align: center; padding: 2rem 1rem; font-size: .9rem; color: #aaa; 
 .video-card:hover {
   transform: translateY(-10px);
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #111;
+  padding: 0.3rem 0.8rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  height: 28px;
+  justify-content: center;
+}
+
+.social-item:hover {
+  background-color: #222;
+}
+
+.social-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-item a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.social-label {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.social-label.telegram {
+  color: #0088cc; /* Telegram blue */
+}
+
+.social-label.instagram {
+  color: #e1306c; /* Instagram pink */
+}
