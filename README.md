@@ -26,11 +26,13 @@ This project was developed in collaboration with **ChatGPT (Vibe Coding Mode)** 
 
 ---
 
-## 🖼 Preview
+## 🖼 Preview  👉 [View it live](https://olegkotok.github.io/Vermotion/)
 
-![Hero section](./images/preview.png)
-
-![Vibe Coding](./images/vibe-coding.png)
+<p align="center">
+  <img src="./images/vibe-coding.png" alt="Vibe Coding" width="400" style="margin-bottom: 10px;"/>
+  <br/>
+  <img src="./images/preview.png" alt="Hero section" width="400"/>
+</p>
 
 ---
 
