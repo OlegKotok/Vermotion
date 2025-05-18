@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Твій Персональний Фітнес Тренер</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --pink:#ff1493;
+  --black:#000;
+  --white:#fff;
+}
+html {scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:'Montserrat',sans-serif;
+  background:var(--black);
+  color:var(--white);
+}
+h1,h2,h3{
+  margin:0 0 1rem 0;
+  font-weight:700;
+}
+p{margin:0 0 1rem 0;line-height:1.6}
+a{color:var(--pink);text-decoration:none}
+header,section{padding:4rem 1rem;max-width:1000px;margin:auto}
+.hero{
+  text-align:center;
+  background:linear-gradient(135deg,var(--black) 40%,var(--pink) 100%);
+  padding:6rem 1rem;
+}
+.hero h1{font-size:3rem;margin-bottom:1rem}
+.hero p{font-size:1.2rem;margin-bottom:2rem;max-width:700px;margin-left:auto;margin-right:auto}
+.btn{
+  background:var(--pink);
+  color:var(--white);
+  border:none;
+  padding:1rem 2rem;
+  font-size:1rem;
+  border-radius:30px;
+  cursor:pointer;
+  transition:transform .2s;
+}
+.btn:hover{transform:scale(1.05)}
+img.profile{
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  border:4px solid var(--pink);
+  margin:1rem auto 2rem;
+  display:block;
+}
+.services{
+  display:grid;
+  gap:2rem;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+}
+.service-card{
+  background:#111;
+  padding:2rem;
+  border-radius:1rem;
+  transition:transform .3s;
+}
+.service-card:hover{transform:translateY(-10px)}
+form{
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+  max-width:400px;
+  margin:auto;
+}
+input,textarea{
+  padding:.8rem;
+  border-radius:5px;
+  border:none;
+  background:#222;
+  color:var(--white);
+}
+input::placeholder,textarea::placeholder{color:#999}
+button[type=submit]{
+  background:var(--pink);
+  border:none;
+  cursor:pointer;
+  padding:1rem;
+  border-radius:30px;
+  font-weight:bold;
+  transition:opacity .3s;
+}
+button[type=submit]:hover{opacity:.8}
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:1rem;
+}
+.gallery img{
+  width:280px;
+  height:200px;
+  object-fit:cover;
+  border-radius:10px;
+}
+footer{
+  text-align:center;
+  padding:2rem 1rem;
+  font-size:.9rem;
+  color:#aaa;
+}
+@media(prefers-reduced-motion:no-preference){
+  .fade-in{opacity:0;transform:translateY(20px);animation:fadeIn 1s forwards}
+  .fade-in:nth-child(1){animation-delay:.2s}
+  .fade-in:nth-child(2){animation-delay:.4s}
+  .fade-in:nth-child(3){animation-delay:.6s}
+  @keyframes fadeIn{to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <!-- ЗАМІНИТЬ your-photo-main.jpg НА СВОЄ ФОТО -->
+  <img src="your-photo-main.jpg" alt="Тренер" class="profile fade-in">
+  <h1 class="fade-in">Стань найкращою версією себе</h1>
+  <p class="fade-in">Персональні тренування, відновлення після травм, тренування для мам та&nbsp;унікальні SUP‑сесії у&nbsp;Сумах.</p>
+  <a href="#contact" class="btn fade-in">Записатися</a>
+</header>
+
+<section id="about">
+  <h2>Про мене</h2>
+  <p>Я&nbsp;— сертифікований фітнес‑тренер із&nbsp;багаторічним досвідом у&nbsp;спорті, зокрема у&nbsp;хокеї на&nbsp;траві. Спеціалізуюся на&nbsp;функціональному тренінгу, роботі з&nbsp;колінами та&nbsp;стопами, тренуваннях для мам після пологів, а&nbsp;також на&nbsp;унікальних водних практиках SUP‑йоги та&nbsp;гандболу на&nbsp;сапах. Моє покликання&nbsp;— допомогти тобі розкрити потенціал і&nbsp;знайти баланс між силою тіла та&nbsp;ментальним здоровʼям.</p>
+</section>
+
+<section id="services">
+  <h2>Послуги</h2>
+  <div class="services">
+    <div class="service-card fade-in">
+      <h3>Персональні тренування</h3>
+      <p>Індивідуальні сесії, адаптовані під твої цілі та&nbsp;рівень підготовки.</p>
+    </div>
+    <div class="service-card fade-in">
+      <h3>Відновлення колін та&nbsp;стоп</h3>
+      <p>Експертні протоколи реабілітації та&nbsp;профілактики травм опорно‑рухового апарату.</p>
+    </div>
+    <div class="service-card fade-in">
+      <h3>Тренування для мам</h3>
+      <p>Безпечні програми після пологів, що&nbsp;допоможуть швидко повернути форму.</p>
+    </div>
+    <div class="service-card fade-in">
+      <h3>SUP‑фітнес&nbsp;і&nbsp;йога</h3>
+      <p>Тренування на&nbsp;сап‑дошках для розвитку балансу, сили та&nbsp;гарного настрою.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Галерея</h2>
+  <div class="gallery">
+    <!-- ЗАМІНИТЬ your-photo-1.jpg, your-photo-2.jpg НА СВОЇ ФОТО -->
+    <img src="your-photo-1.jpg" alt="Тренування на SUP">
+    <img src="your-photo-2.jpg" alt="Функціональне тренування">
+    <img src="your-photo-3.jpg" alt="Стрейчинг">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Звʼяжіться зі мною</h2>
+  <!-- Змінити action на свій обробник форми (наприклад, Formspree) -->
+  <form action="https://formspree.io/f/yourformid" method="POST">
+    <input type="text" name="name" placeholder="Ваше імʼя" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" rows="5" placeholder="Ваше повідомлення"></textarea>
+    <button type="submit">Надіслати</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Твій Фітнес Тренер. Зроблено з любовʼю у&nbsp;Сумах.</p>
+</footer>
+
+<script>
+// Плавний скрол до секцій
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+  anchor.addEventListener('click',function(e){
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+  });
+});
+</script>
+
+</body>
+</html>
