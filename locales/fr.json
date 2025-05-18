@@ -1,0 +1,34 @@
+{
+  "title": "Votre Coach Personnel de Fitness",
+  "hero_h1": "Devenez la meilleure version de vous-même",
+  "hero_p": "Entraînement personnel, récupération après blessure, séances postnatales et sessions SUP uniques à Soumy.",
+  "btn_contact": "S'inscrire",
+  "about_title": "À propos de moi",
+  "about_text": "Je suis un coach de fitness certifié avec des années d'expérience dans le sport, notamment dans le hockey sur gazon. Je suis spécialisé dans l'entraînement fonctionnel, la rééducation du genou et du pied, l'entraînement postnatal pour les mères, ainsi que dans des pratiques aquatiques uniques comme le SUP yoga et le handball sur SUP. Ma mission est de vous aider à libérer votre potentiel et à trouver un équilibre entre la force physique et le bien-être mental.",
+  "services_title": "Services",
+  "services": [
+    {
+      "title": "Entraînement Personnel",
+      "text": "Séances individuelles adaptées à vos objectifs et à votre niveau."
+    },
+    {
+      "title": "Rééducation des Genoux et des Pieds",
+      "text": "Protocoles d'experts pour la rééducation et la prévention des blessures musculo-squelettiques."
+    },
+    {
+      "title": "Entraînement pour les Mamans",
+      "text": "Programmes postnatals sûrs pour retrouver la forme rapidement."
+    },
+    {
+      "title": "SUP Fitness & Yoga",
+      "text": "Entraînements sur planche SUP pour améliorer l'équilibre, la force et l'humeur."
+    }
+  ],
+  "gallery_title": "Galerie",
+  "contact_title": "Contactez-moi",
+  "form_name": "Votre nom",
+  "form_email": "Email",
+  "form_message": "Votre message",
+  "form_submit": "Envoyer",
+  "footer": "© 2025 Votre Coach de Fitness. Fait avec amour à Soumy."
+}

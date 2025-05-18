@@ -1,0 +1,34 @@
+{
+  "title": "Il Tuo Personal Trainer",
+  "hero_h1": "Diventa la migliore versione di te stesso",
+  "hero_p": "Allenamento personale, recupero da infortuni, allenamenti postnatali e sessioni SUP uniche a Sumy.",
+  "btn_contact": "Iscriviti",
+  "about_title": "Chi sono",
+  "about_text": "Sono un personal trainer certificato con anni di esperienza nello sport, incluso l'hockey su prato. Sono specializzato in allenamento funzionale, riabilitazione di ginocchia e piedi, allenamento postnatale per mamme, nonché in pratiche acquatiche uniche come SUP yoga e pallamano su SUP. La mia missione è aiutarti a scoprire il tuo potenziale e trovare un equilibrio tra forza fisica e benessere mentale.",
+  "services_title": "Servizi",
+  "services": [
+    {
+      "title": "Allenamento Personale",
+      "text": "Sessioni individuali adattate ai tuoi obiettivi e al tuo livello di forma fisica."
+    },
+    {
+      "title": "Riabilitazione di Ginocchia e Piedi",
+      "text": "Protocolli esperti di riabilitazione e prevenzione degli infortuni muscoloscheletrici."
+    },
+    {
+      "title": "Allenamento per Mamme",
+      "text": "Programmi postnatali sicuri per aiutarti a ritrovare rapidamente la forma."
+    },
+    {
+      "title": "SUP Fitness & Yoga",
+      "text": "Allenamenti su tavole SUP per migliorare l'equilibrio, la forza e l'umore."
+    }
+  ],
+  "gallery_title": "Galleria",
+  "contact_title": "Contattami",
+  "form_name": "Il tuo nome",
+  "form_email": "Email",
+  "form_message": "Il tuo messaggio",
+  "form_submit": "Invia",
+  "footer": "© 2025 Il Tuo Personal Trainer. Fatto con amore a Sumy."
+}

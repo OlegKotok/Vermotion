@@ -1,0 +1,34 @@
+{
+  "title": "Dein Persönlicher Fitnesstrainer",
+  "hero_h1": "Werde die beste Version von dir selbst",
+  "hero_p": "Personaltraining, Reha nach Verletzungen, postnatale Workouts und einzigartige SUP-Sitzungen in Sumy.",
+  "btn_contact": "Anmelden",
+  "about_title": "Über mich",
+  "about_text": "Ich bin ein zertifizierter Fitnesstrainer mit jahrelanger Erfahrung im Sport, unter anderem im Feldhockey. Ich spezialisiere mich auf funktionelles Training, Knie- und Fußrehabilitation, postnatales Training für Mütter sowie auf einzigartige Wasserpraktiken wie SUP-Yoga und SUP-Handball. Meine Mission ist es, dir zu helfen, dein Potenzial zu entfalten und ein Gleichgewicht zwischen körperlicher Stärke und mentalem Wohlbefinden zu finden.",
+  "services_title": "Leistungen",
+  "services": [
+    {
+      "title": "Personaltraining",
+      "text": "Individuelle Sitzungen, angepasst an deine Ziele und dein Fitnessniveau."
+    },
+    {
+      "title": "Knie- und Fußrehabilitation",
+      "text": "Expertenprotokolle zur Rehabilitation und Prävention von Verletzungen des Bewegungsapparates."
+    },
+    {
+      "title": "Training für Mütter",
+      "text": "Sichere postnatale Programme, um schnell wieder in Form zu kommen."
+    },
+    {
+      "title": "SUP-Fitness und Yoga",
+      "text": "Workouts auf SUP-Boards zur Verbesserung von Gleichgewicht, Kraft und Stimmung."
+    }
+  ],
+  "gallery_title": "Galerie",
+  "contact_title": "Kontaktieren Sie mich",
+  "form_name": "Ihr Name",
+  "form_email": "Email",
+  "form_message": "Ihre Nachricht",
+  "form_submit": "Senden",
+  "footer": "© 2025 Dein Fitnesstrainer. Mit Liebe gemacht in Sumy."
+}

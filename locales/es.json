@@ -1,0 +1,34 @@
+{
+  "title": "Tu Entrenador Personal de Fitness",
+  "hero_h1": "Conviértete en la mejor versión de ti mismo",
+  "hero_p": "Entrenamiento personal, recuperación de lesiones, ejercicios postnatales y sesiones únicas de SUP en Sumy.",
+  "btn_contact": "Inscribirse",
+  "about_title": "Sobre mí",
+  "about_text": "Soy un entrenador personal certificado con años de experiencia en deportes, incluido el hockey sobre césped. Me especializo en entrenamiento funcional, rehabilitación de rodillas y pies, entrenamiento postnatal para madres, así como en prácticas acuáticas únicas como SUP yoga y balonmano sobre SUP. Mi misión es ayudarte a descubrir tu potencial y encontrar un equilibrio entre la fuerza física y el bienestar mental.",
+  "services_title": "Servicios",
+  "services": [
+    {
+      "title": "Entrenamiento Personal",
+      "text": "Sesiones individuales adaptadas a tus objetivos y nivel físico."
+    },
+    {
+      "title": "Recuperación de Rodillas y Pies",
+      "text": "Protocolos expertos de rehabilitación y prevención de lesiones musculoesqueléticas."
+    },
+    {
+      "title": "Entrenamiento para Mamás",
+      "text": "Programas postnatales seguros para ayudarte a recuperar tu forma rápidamente."
+    },
+    {
+      "title": "SUP Fitness y Yoga",
+      "text": "Entrenamientos sobre tablas SUP para mejorar el equilibrio, la fuerza y el ánimo."
+    }
+  ],
+  "gallery_title": "Galería",
+  "contact_title": "Contáctame",
+  "form_name": "Tu nombre",
+  "form_email": "Email",
+  "form_message": "Tu mensaje",
+  "form_submit": "Enviar",
+  "footer": "© 2025 Tu Entrenador de Fitness. Hecho con amor en Sumy."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Your Personal Fitness Trainer",
+  "hero_h1": "Become the Best Version of Yourself",
+  "hero_p": "Personal training, injury recovery, postnatal workouts, and unique SUP sessions in Sumy.",
+  "btn_contact": "Sign Up",
+  "about_title": "About Me",
+  "about_text": "I am a certified fitness trainer with years of experience in sports, including field hockey. I specialize in functional training, knee and foot rehabilitation, postnatal training for mothers, as well as unique water practices like SUP yoga and SUP handball. My mission is to help you unlock your potential and find a balance between physical strength and mental well-being.",
+  "services_title": "Services",
+  "services": [
+    {
+      "title": "Personal Training",
+      "text": "Individual sessions tailored to your goals and fitness level."
+    },
+    {
+      "title": "Knee and Foot Recovery",
+      "text": "Expert rehabilitation and injury prevention protocols for the musculoskeletal system."
+    },
+    {
+      "title": "Training for Mothers",
+      "text": "Safe postnatal programs to help you regain shape quickly."
+    },
+    {
+      "title": "SUP Fitness & Yoga",
+      "text": "Workouts on SUP boards to improve balance, strength, and mood."
+    }
+  ],
+  "gallery_title": "Gallery",
+  "contact_title": "Contact Me",
+  "form_name": "Your Name",
+  "form_email": "Email",
+  "form_message": "Your Message",
+  "form_submit": "Send",
+  "footer": "© 2025 Your Fitness Trainer. Made with love in Sumy."
+}

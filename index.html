@@ -3,48 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Твій Персональний Фітнес Тренер</title>
+  <title data-i18n="title">Твій Персональний Фітнес Тренер</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <header class="hero">
+  <div class="language-switcher">
+    <button id="lang-toggle">
+      <img src="https://hatscripts.github.io/circle-flags/flags/ua.svg" alt="UA" width="32" height="32">
+    </button>
+    <div class="language-dropdown" style="display:none;">
+      <button data-lang="ua"><img src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="24" alt="UA"></button>
+      <button data-lang="en"><img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="24" alt="EN"></button>
+      <button data-lang="de"><img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="24" alt="DE"></button>
+      <button data-lang="fr"><img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="24" alt="FR"></button>
+      <button data-lang="es"><img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="24" alt="ES"></button>
+      <button data-lang="it"><img src="https://hatscripts.github.io/circle-flags/flags/it.svg" width="24" alt="IT"></button>
+    </div>
+  </div>
   <img src="./images/photo.jpg" alt="Тренер" class="profile fade-in">
-  <h1 class="fade-in">Стань найкращою версією себе</h1>
-  <p class="fade-in">Персональні тренування, відновлення після травм, тренування для мам та&nbsp;унікальні SUP‑сесії у&nbsp;Сумах.</p>
-  <a href="#contact" class="btn fade-in">Записатися</a>
+  <h1 class="fade-in" data-i18n="hero_h1">Стань найкращою версією себе</h1>
+  <p class="fade-in" data-i18n="hero_p">Персональні тренування, відновлення після травм, тренування для мам та&nbsp;унікальні SUP‑сесії у&nbsp;Сумах.</p>
+  <a href="#contact" class="btn fade-in" data-i18n="btn_contact">Записатися</a>
 </header>
 
 <section id="about">
-  <h2>Про мене</h2>
-  <p>Я&nbsp;— сертифікований фітнес‑тренер із&nbsp;багаторічним досвідом у&nbsp;спорті, зокрема у&nbsp;хокеї на&nbsp;траві. Спеціалізуюся на&nbsp;функціональному тренінгу, роботі з&nbsp;колінами та&nbsp;стопами, тренуваннях для мам після пологів, а&nbsp;також на&nbsp;унікальних водних практиках SUP‑йоги та&nbsp;гандболу на&nbsp;сапах. Моє покликання&nbsp;— допомогти тобі розкрити потенціал і&nbsp;знайти баланс між силою тіла та&nbsp;ментальним здоровʼям.</p>
+  <h2 data-i18n="about_title">Про мене</h2>
+  <p data-i18n="about_text">Я&nbsp;— сертифікований фітнес‑тренер із&nbsp;багаторічним досвідом у&nbsp;спорті, зокрема у&nbsp;хокеї на&nbsp;траві. Спеціалізуюся на&nbsp;функціональному тренінгу, роботі з&nbsp;колінами та&nbsp;стопами, тренуваннях для мам після пологів, а&nbsp;також на&nbsp;унікальних водних практиках SUP‑йоги та&nbsp;гандболу на&nbsp;сапах. Моє покликання&nbsp;— допомогти тобі розкрити потенціал і&nbsp;знайти баланс між силою тіла та&nbsp;ментальним здоровʼям.</p>
 </section>
 
 <section id="services">
-  <h2>Послуги</h2>
+  <h2 data-i18n="services_title">Послуги</h2>
   <div class="services">
     <div class="service-card fade-in">
-      <h3>Персональні тренування</h3>
-      <p>Індивідуальні сесії, адаптовані під твої цілі та&nbsp;рівень підготовки.</p>
+      <h3 data-i18n="services.0.title">Персональні тренування</h3>
+      <p data-i18n="services.0.text">Індивідуальні сесії, адаптовані під твої цілі та&nbsp;рівень підготовки.</p>
     </div>
     <div class="service-card fade-in">
-      <h3>Відновлення колін та&nbsp;стоп</h3>
-      <p>Експертні протоколи реабілітації та&nbsp;профілактики травм опорно‑рухового апарату.</p>
+      <h3 data-i18n="services.1.title">Відновлення колін та&nbsp;стоп</h3>
+      <p data-i18n="services.1.text">Експертні протоколи реабілітації та&nbsp;профілактики травм опорно‑рухового апарату.</p>
     </div>
     <div class="service-card fade-in">
-      <h3>Тренування для мам</h3>
-      <p>Безпечні програми після пологів, що&nbsp;допоможуть швидко повернути форму.</p>
+      <h3 data-i18n="services.2.title">Тренування для мам</h3>
+      <p data-i18n="services.2.text">Безпечні програми після пологів, що&nbsp;допоможуть швидко повернути форму.</p>
     </div>
     <div class="service-card fade-in">
-      <h3>SUP‑фітнес&nbsp;і&nbsp;йога</h3>
-      <p>Тренування на&nbsp;сап‑дошках для розвитку балансу, сили та&nbsp;гарного настрою.</p>
+      <h3 data-i18n="services.3.title">SUP‑фітнес&nbsp;і&nbsp;йога</h3>
+      <p data-i18n="services.3.text">Тренування на&nbsp;сап‑дошках для розвитку балансу, сили та&nbsp;гарного настрою.</p>
     </div>
   </div>
 </section>
 
 <section id="gallery">
-  <h2>Галерея</h2>
+  <h2 data-i18n="gallery_title">Галерея</h2>
   <div class="gallery">
     <video class="video-card" autoplay loop muted playsinline style="width:280px; height:500px; object-fit:cover; border-radius:10px;">
       <source src="images/sup-training.mp4" type="video/mp4">
@@ -70,18 +83,18 @@
 </section>
 
 <section id="contact">
-  <h2>Звʼяжіться зі мною</h2>
+  <h2 data-i18n="contact_title">Звʼяжіться зі мною</h2>
   <form action="https://formspree.io/f/xovdrgkr" method="POST">
-    <input type="text" name="name" placeholder="Ваше імʼя" required>
-    <input type="email" name="email" placeholder="Email" required>
-    <textarea name="message" rows="5" placeholder="Ваше повідомлення"></textarea>
+    <input type="text" name="name" placeholder="Ваше імʼя" required data-i18n-placeholder="form_name">
+    <input type="email" name="email" placeholder="Email" required data-i18n-placeholder="form_email">
+    <textarea name="message" rows="5" placeholder="Ваше повідомлення" data-i18n-placeholder="form_message"></textarea>
     <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
-    <button type="submit">Надіслати</button>
+    <button type="submit" data-i18n="form_submit">Надіслати</button>
   </form>
 </section>
 
 <footer>
-  <p>© 2025 Твій Фітнес Тренер. Зроблено з любовʼю у&nbsp;Сумах.</p>
+  <p data-i18n="footer">© 2025 Твій Фітнес Тренер. Зроблено з любовʼю у&nbsp;Сумах.</p>
   <div class="social-links">
     <div class="social-item">
       <a href="https://t.me/hryshik" target="_blank" aria-label="Telegram">
@@ -98,6 +111,7 @@
   </div>
 </footer>
 
+<script src="js/i18n.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
